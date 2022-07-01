@@ -1,0 +1,51 @@
+targetNamespace: ''
+cleanNamespace: false
+parameters: {}
+packages:
+  - name: sample
+    shared: false
+    clean: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: hello
+        clean: false
+        binary: false
+        main: ''
+        runtime: 'nodejs:default'
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+  - name: zerion-starter
+    shared: false
+    clean: false
+    environment: {}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: zerion-js
+        clean: false
+        binary: false
+        main: ''
+        runtime: 'nodejs:default'
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+      - name: zerion-py
+        clean: false
+        binary: false
+        main: ''
+        runtime: 'python:default'
+        web: true
+        webSecure: false
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}

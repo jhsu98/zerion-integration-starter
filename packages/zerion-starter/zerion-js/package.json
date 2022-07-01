@@ -1,0 +1,10 @@
+{
+    "name": "zerion-js",
+    "version": "1.0.0",
+    "description": "Starter function for connecting to the iForm API",
+    "main": "index.js",
+    "dependencies": {
+      "zerion-js": "^2.1.0"
+    }
+  }
+  
